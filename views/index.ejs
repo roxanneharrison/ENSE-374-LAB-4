@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="Jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h3 class="text-center">To do Prototype</h3>
+        <br>
+
+        <div class="center_div" id="accordion" role="tablist">
+            <div class="card">
+                <div class="card-header" role="tab" id="headingOne">
+                    <h5 class="mb-0">
+                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Log In
+                        </a>
+                    </h5>
+                </div>
+
+                <div class="panel-collapse in accordion-body collapse show" id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="card-body">
+                        <h4 class="text-center">Log in</h4>
+                        <form action ="/login" method = "post">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name = "username" id="username" placeholder="Email address">
+                                <input type="password" class="form-control" name = "password" id="password" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg btn-block">Log in</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" role="tab" id="headingTwo">
+                    <h5 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Sign Up
+                        </a>
+                    </h5>
+                </div>
+                <div class="panel-collapse in accordion-body collapse" id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="card-body">
+                        <h4 class="text-center">Sign up</h4>
+                        <form action = "/register" method = "post">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name = "username" id="username" placeholder="Email address">
+                                <input type="password" class="form-control" name = "password" id="password" placeholder="Password">
+                                <input type="password" class="form-control" name = "authentication" id="authentication" placeholder="Authentication">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+
+
+
+
+<!-- jQuery and JS bundle w/ Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script></html>
+
+<script src="Jquery.js" ></script>
+

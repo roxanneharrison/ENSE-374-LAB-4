@@ -1,0 +1,15 @@
+<form method = "post" action="/unfinish">
+    <div class="input-group">
+        <input type="hidden" id="taskId<%=item._id%>" name="taskId" value="<%=item._id%>">
+        <input type="hidden" id="email" name="email" value="<%=email%>">
+        <div name="checkboxNode" class="input-group-prepend">
+            <div class="input-group-text">
+                <input onChange="this.form.submit()" type="checkbox" class="check" checked data-toggle="toggle" aria-label="Checkbox for following text input">
+            </div>
+        </div>
+        <input class="form-control line-through" type="text" placeholder="Owned by: <%=item.owner%>, Finished" readonly>
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-primary hidden">Abandon</button>
+        </div>
+    </div>
+    </form>

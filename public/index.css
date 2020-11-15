@@ -1,0 +1,116 @@
+.center_div {
+    margin: 0 auto;
+    width: 330px;
+}
+
+.center_todo {
+    margin: 0 auto;
+    width: 500px;
+}
+
+a {
+    font-size: 10pt;
+    font-weight: 300;
+}
+
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');
+
+body {
+    margin: 10px;
+}
+
+.panel-group {
+    cursor: pointer;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.no-line {
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: inline;
+}
+
+.check {}
+
+.removed {
+    display: none;
+}
+
+.claim {}
+
+.abandon {}
+
+
+/*STEP 4 CUSTOM STYLING*/
+.jumbotron {
+    background-color: rgb(245, 66, 145, .5);
+    border: 2px solid #007bff
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #F54291;
+    border-color: #F54291;
+    border: 1px solid white;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #F54291;
+    opacity: 0.8;
+    border-color: white;
+}
+
+.form-control {
+    background-color: white;
+    border: 1px solid white;
+    margin-bottom: 3px;
+}
+
+.form-control[readonly] {
+    background-color: white;
+    opacity: 1;
+}
+
+.input-group-text {
+    background-color: white;
+    border: 1px solid white;
+}
+
+.card-header {
+    background-color: white;
+    border: 1px solid white;
+}
+
+.card-body {
+    background-color: rgb(245, 66, 145, .5);
+    border: 1px solid white;
+}

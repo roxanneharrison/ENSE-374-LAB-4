@@ -1,0 +1,14 @@
+<form method = "post" action="/abandonorcomplete">
+    <div class="input-group">
+        <input type="hidden" id="taskId<%=item._id%>" name="taskId" value="<%=item._id%>">
+        <div name="checkboxNode" class="input-group-prepend hidden">
+            <div class="input-group-text">
+                <input type="checkbox" class="check" data-toggle="toggle" aria-label="Checkbox for following text input">
+            </div>
+        </div>
+        <input class="form-control no-line" type="text" placeholder="Owned by: <%=item.owner%>, Unfinished" readonly>
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-primary hidden">Abandon</button>
+        </div>
+    </div>
+    </form>
